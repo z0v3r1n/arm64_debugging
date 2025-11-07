@@ -1,4 +1,4 @@
-I’ll be writing a proper blog post on ARM64 debugging soon, but for now this should be enough to get going.
+I’ll be writing a proper blog post on arm64 debugging on amd64 machine soon, but for now this should be enough to get going.
 
 There *are* a few caveats, though:
 
@@ -9,6 +9,6 @@ There *are* a few caveats, though:
 sudo apt install qemu-user-static binfmt-support qemu-user gdb-multiarch
 ```
 
-This was only tested on Kali Linux — it *may* work fine elsewhere, but no promises.
+This was only tested on kali linux — it *may* work fine elsewhere, but no promises.
 
-You’ll also need `tmux` — it’s preinstalled on Kali, but if you’re on another distro you’ll need to install it manually.
+You’ll also need `tmux` — it’s preinstalled on kali, but if you’re on another distro you’ll need to install it manually.
