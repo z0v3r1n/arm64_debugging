@@ -1,11 +1,14 @@
-will have a blog up in some time on arm64 debugging but, for now this is enough ...
-there are a bunch of caveats tho ...
-you can't run the arm64_dbg.sh two times at the same time while the other one is running ...
-and, we do have a bunch of dependencies:
+I’ll be writing a proper blog post on ARM64 debugging soon, but for now this should be enough to get going.
 
-```
+There *are* a few caveats, though:
+
+* you **cannot** run `arm64_dbg.sh` multiple times in parallel — only one instance can be active at a time
+* there are some dependencies you need installed first:
+
+```bash
 sudo apt install qemu-user-static binfmt-support qemu-user gdb-multiarch
 ```
 
-these scripts have only been tested on kali linux and might possibly break on your system
-also, you need to have tmux installed which is already installed by default on kali :D
+This was only tested on Kali Linux — it *may* work fine elsewhere, but no promises.
+
+You’ll also need `tmux` — it’s preinstalled on Kali, but if you’re on another distro you’ll need to install it manually.
