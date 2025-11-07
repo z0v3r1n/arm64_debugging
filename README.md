@@ -13,6 +13,10 @@ This was only tested on kali linux — it *may* work fine elsewhere, but no prom
 
 You’ll also need `tmux` — it’s preinstalled on kali, but if you’re on another distro you’ll need to install it manually.
 
+---
+
+## Usage
+
 ```
 ./arm64_dbg.sh <binary>
 ```
