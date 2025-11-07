@@ -15,7 +15,7 @@ You’ll also need `tmux` — it’s preinstalled on kali, but if you’re on an
 
 ---
 
-## Usage
+You can run the script like this:
 
 ```
 ./arm64_dbg.sh <binary>
